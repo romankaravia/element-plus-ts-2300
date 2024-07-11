@@ -13,8 +13,7 @@
     "lib": ["esnext", "dom"],
     "paths": {
       "~/*": ["src/*"]
-    },
-    "skipLibCheck": true
+    }
   },
   "vueCompilerOptions": {
     "target": 3
