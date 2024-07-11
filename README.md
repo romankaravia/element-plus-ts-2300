@@ -1,42 +1,14 @@
-# element-plus-vite-starter
+# element-plus-ts-2300
 
-> A starter kit for Element Plus with Vite
+Reproduction for https://github.com/element-plus/element-plus/issues/17513
 
-- Preview: <https://vite-starter.element-plus.org>
+### Steps to reproduce
 
-This is an example of on-demand element-plus with [unplugin-vue-components](https://github.com/antfu/unplugin-vue-components).
-
-> If you want to import all, it may be so simple that no examples are needed. Just follow [quickstart | Docs](https://element-plus.org/zh-CN/guide/quickstart.html) and import them.
-
-If you just want an on-demand import example `manually`, you can check [unplugin-element-plus/examples/vite](https://github.com/element-plus/unplugin-element-plus/tree/main/examples/vite).
-
-## Project setup
-
-```bash
+```
+git clone https://github.com/romankaravia/element-plus-ts-2300.git
+cd element-plus-ts-2300
 npm install
+npm run typecheck
 ```
 
-### Compiles and hot-reloads for development
-
-```bash
-npm run dev
-```
-
-### Compiles and minifies for production
-
-```bash
-npm run build
-```
-
-## Usage
-
-```bash
-git clone https://github.com/element-plus/element-plus-vite-starter
-cd element-plus-vite-starter
-npm i
-npm run dev
-```
-
-### Custom theme
-
-See `src/styles/element/index.scss`.
+Based on https://github.com/element-plus/element-plus-vite-starter
